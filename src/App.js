@@ -4,5 +4,5 @@ const chainMod = require('../bin/chain.js');
 const init = require('../bin/index.js');
 
 const DB = new init.db();
-module.export()
+export default DB;
 
